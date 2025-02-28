@@ -14,8 +14,6 @@
   while (index < hobbies.length) {
     // Log each hobby and see if it works in the console
 
-    console.log(`Hobby ${index+1}`, hobbies[index]);
-
-    // Increment the index for the next iteration
+    console.log("Hobby " + (index + 1) + ": " + hobbies[index]);   // Increment the index for the next iteration
     index++;
   }

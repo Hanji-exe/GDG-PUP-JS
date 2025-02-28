@@ -1,6 +1,6 @@
 function checkAge() {
 
-    //Get the value of the input using the ID which is the ageInput and the resul.
+    //Get the value of the input using the ID which is the ageInput and the result.
 
     let age = document.getElementById('ageInput').value;
     let result = document.getElementById('result');
